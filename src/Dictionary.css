@@ -1,3 +1,8 @@
 .Dictionary {
   background: none;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-top: 20px;
 }
