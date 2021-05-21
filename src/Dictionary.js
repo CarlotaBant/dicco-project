@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios";
 import './Dictionary.css';
 
 export default function Dictionary() {
@@ -10,6 +9,7 @@ export default function Dictionary() {
       event.preventDefault();
       alert(`Searching for ${keyword} definition`);
    }
+
 
    function handleKeywordChange(event){
       setKeyword(event.target.value);
