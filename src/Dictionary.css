@@ -1,8 +1,19 @@
 .Dictionary {
   background: none;
-  max-width: 200px;
+  max-width: 480px;
   display: block;
   margin: 0 auto;
-  padding-left: 50px;
   padding-top: 20px;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 200px;
+  padding-bottom: 50px;
+}
+
+p {
+  padding: 5px;
 }
