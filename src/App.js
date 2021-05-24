@@ -13,7 +13,7 @@ export default function App() {
         <h4 className="title"><center>Word's Meanings</center></h4>
       </header>
       <main>
-        <Dictionary defaultKeyword="foxy" />
+        <Dictionary defaultKeyword="fox" />
       </main>
       <footer className="App-footer"><small>Coded by <a href="https://github.com/CarlotaBant">Lota Aya</a></small></footer>
       </div>
