@@ -9,9 +9,11 @@ export default function App() {
       <header className="App-header">
         <img src={logo} className="App-logo 
         img-fluid" alt="logo" />
+        <br />
+        <h4><center>Word's Meanings</center></h4>
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="Fox" />
       </main>
       <footer className="App-footer"><small>Coded by <a href="https://github.com/CarlotaBant">Lota Aya</a></small></footer>
       </div>
