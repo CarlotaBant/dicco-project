@@ -4,37 +4,32 @@ import Results from "./Results";
 import './Dictionary.css';
 
 export default function Dictionary() {
-  
+
    let [keyword, setKeyword] = useState("");
    let [results, setResults] = useState(null);
 
 function handleApiResponse (response){
       setResults(response.data[0]);
-
-}
+   }
 
    function search(event) {
       event.preventDefault();
-   
       // documentation: https://dictionaryapi.dev/
       let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`
       axios.get(apiUrl).then(handleApiResponse)
-   }
+}
 
 
    function handleKeywordChange(event){
       setKeyword(event.target.value);
-   }
+}
   
   return (
   <div className="Dictionary">
-     
-   <form onSubmit={search}>
-      <input type="search" onChange={handleKeywordChange} placeholder="Type a word here"/> 🔍
-      </form>
-
-            <Results results={results} />
-
-      </div>
-  );
+     <form onSubmit={search}>
+        <input type="search" onChange={handleKeywordChange} placeholder="Type a word here"/> 🔍
+        </form>
+        <Results results={results} />
+        </div>
+        );
 }
