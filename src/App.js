@@ -10,10 +10,10 @@ export default function App() {
         <img src={logo} className="App-logo 
         img-fluid" alt="logo" />
         <br />
-        <h4><center>Word's Meanings</center></h4>
+        <h4 className="title"><center>Word's Meanings</center></h4>
       </header>
       <main>
-        <Dictionary defaultKeyword="Fox" />
+        <Dictionary defaultKeyword="foxy" />
       </main>
       <footer className="App-footer"><small>Coded by <a href="https://github.com/CarlotaBant">Lota Aya</a></small></footer>
       </div>
