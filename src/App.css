@@ -1,6 +1,8 @@
 body {
   background: rgb(201, 187, 175);
-  background-image: linear-gradient(to top, #dacbbe 100%, #eddcce 0%);
+  background-image: linear-gradient(to top, #d0c7c0 100%, #dcd6d2 0%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .App a {
@@ -11,26 +13,23 @@ body {
   color: rgb(96, 82, 67);
 }
 
-.App-header {
-  margin-top: 50px;
-  padding-top: 20px;
-  padding-right: 350px;
+.App header {
   color: rgb(74, 51, 46);
 }
 
 .App-logo {
   max-width: 100px;
-  display: block;
-  margin: 0 auto;
+  margin: 20px;
+  margin-left: 60px;
 }
 
 .App .title {
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 .App-footer {
-  text-align: center;
-  margin: 30px 0;
+  text-align: right;
+  margin: 30px 15px;
 }
 
 .Dictionary {
@@ -73,20 +72,30 @@ body {
   padding: 2px;
 }
 
+.Dictionary .pics {
+  border-radius: 8px;
+  margin: 6px;
+  margin-right: 4px;
+  padding: 5px;
+  padding-right: 4px;
+}
+
 .Dictionary section {
   background: rgb(195, 203, 199);
   background-image: linear-gradient(
     to right,
-    #bbd5cd 0%,
-    #bed5d1 30%,
-    #bed5d1 64%,
-    #bbd5cd 100%
+    #d6dfde 0%,
+    #d2e1de 30%,
+    #d2e1de 64%,
+    #d6dfde 100%
   );
-  padding: 30px;
-  margin: 6px;
-  margin-left: 60px;
   border-radius: 4px;
   box-shadow: 0px 10px 20px 10px rgba(80, 63, 47, 0.112);
+  display: block;
+  margin: 6px auto;
+  margin-left: 60px;
+  padding: 22px;
+  padding-right: 35px;
 }
 
 .Meaning .definition {
@@ -107,6 +116,7 @@ body {
 }
 
 .Phonetic a {
+  background-color: rgb(224, 244, 237);
   border: 1px solid #ddd;
   border-radius: 20px;
   font-weight: bold;
@@ -122,20 +132,17 @@ body {
   border: 1px solid #ddd;
 }
 
-.Results h2 {
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 1.5;
-  margin-bottom: 25px;
-}
-
 .Phonetic .text {
   opacity: 0.5;
   font-weight: bold;
 }
 
-.Photos img {
-  border-radius: 15px;
+.Results h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 8px 30px;
+  margin-bottom: 12px;
 }
 
 .Synonyms {
